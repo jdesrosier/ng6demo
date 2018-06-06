@@ -19,4 +19,8 @@ export class DataService {
   getPosts() {
     return this.http.get('https://jsonplaceholder.typicode.com/posts')
   }
+
+  getLinks() {
+    return this.http.get('http://localhost:4200/assets/links.json')
+  }
 }
