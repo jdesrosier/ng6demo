@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "url": "http://www.google.com",
+        "title": "Google",
+        "description": "Search the world's information, including webpages, images, videos and more.",
+        "icon": "search"
+    },
+    {
+        "id": 2,
+        "url": "https://www.youtube.com/",
+        "title": "YouTube",
+        "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube",
+        "icon": "ondemand_video"
+    },
+    {
+        "id": 3,
+        "url": "https://twitter.com",
+        "title": "Twitter",
+        "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+        "icon": "person"
+    }
+]
