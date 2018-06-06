@@ -1,0 +1,11 @@
+<h1>Links</h1>
+
+<ul [@listStagger]="links$">
+  <li *ngFor="let link of links$">
+    <a href="{{link.url}}">{{ link.title }} <i class="material-icons">{{link.icon}}</i> </a>
+
+    <ul>
+      <li>{{ link.description }}</li>
+    </ul>
+  </li>
+</ul>
